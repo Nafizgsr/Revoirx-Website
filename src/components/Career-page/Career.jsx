@@ -38,7 +38,7 @@ const Vission = ({list}) =>{
     return (<>
     {
         list.map((item,index)=>(
-            <div className="vission-container">
+            <div className="vission-container" key={index}>
                 <div className={`vission-card ${index%2 !== 0 ? 'vission-card-reversed':''}`}>
                     <div className="vission-info-div">
                         <p className="vission-info-heading">{item.heading}</p>
@@ -57,9 +57,57 @@ const Vission = ({list}) =>{
     </>)
 }
 
-const positions = () =>{
+const Positions = ({list}) =>{
     return (<>
-    
+        <div className="career-position-container">
+            <p className="career-position-header">Open positions</p>
+            <div className="career-position-sub-container">
+                {
+                    list.map((item,index)=>(
+                        <div className="career-position-card" key={index}>
+                            <div className="career-position-type-div">
+                                <p className="career-position">{item.position}</p>
+                                <p className="career-position-category">{item.category}</p>
+                            </div>
+                            <p className="career-position-category">{item.location}</p>
+                        </div>
+                    ))
+                }
+            </div>
+            <div className="caree-no-position-container">
+                <p className="career-no-position-heading">
+                    Can't find the right position?
+                </p>
+                <p className="career-no-position-des">
+                    We are always looking for top talent, so feel free to get in touch anytime
+                </p>
+                <button className="career-btn">
+            Apply Now
+            <div className="career-icon">
+              <svg
+                width="21"
+                height="18"
+                viewBox="0 0 21 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.7803 1.15356L20.0002 8.99983L11.7803 16.8461"
+                  strokeWidth="1.28571"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M19 8.99976L1 8.99976"
+                  strokeWidth="1.28571"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+            </div>
+        </div>
     </>)
 }
 
@@ -81,6 +129,13 @@ const Career = () =>{
     const vission = [
         {id:1,heading:'Small teams, global mission',img:'/Images/Placeholder Image 3.png',des:"Today, we're growing fast and excited for new teammates to join us who are the best at what they do. We're still a small team, and every new team member has the opportunity to help shape our product & organization, playing a massive role in driving our mission forward."},
         {id:2,heading:'A career as original as you are',img:'/Images/Placeholder Image 4.png',des:"Don’t just climb the ladder; jump around and swing across it. At SPICE, careers are flexible, and we aim to support your unique path. Whether you're a passionate people leader, creative wiz or a specialist who wants to stay close to their craft, we’ll help you grow."}
+    ]
+    const positions = [
+        {id:1,position:'Account Associate',category:'Sales',location:'Hybrid / San Francisco, CA'},
+        {id:2,position:'Account Associate',category:'Sales',location:'Hybrid / San Francisco, CA'},
+        {id:3,position:'Account Associate',category:'Sales',location:'Hybrid / San Francisco, CA'},
+        {id:4,position:'Account Associate',category:'Sales',location:'Hybrid / San Francisco, CA'},
+        {id:5,position:'Account Associate',category:'Sales',location:'Hybrid / San Francisco, CA'},
     ]
     return (<>
         <Navbar/>
@@ -138,6 +193,7 @@ const Career = () =>{
         />
         <MissionValues list={values} isValues={true}/>
         <Vission list={vission}/> 
+        <Positions list={positions}/>
         <Questions isHeader={false} heading={"How we hire"} description={"Learn about our interview process and anything else you have in mind"}/>
         <Subintro 
             heading="Inspired?"

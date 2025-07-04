@@ -1,6 +1,6 @@
 import './Subintro.css';
 
-const Subintro = ({ heading, description, buttonText, IsHead , subHeadName , IsButton , IsSecondButton , secontBtnText , IsInput , onClick }) => {
+const Subintro = ({ heading, description, buttonText, IsHead , subHeadName , IsButton , IsSecondButton , secontBtnText , isNoDes , IsInput , onClick }) => {
   return (
     <div className="subintro-container">
       {
@@ -18,11 +18,14 @@ const Subintro = ({ heading, description, buttonText, IsHead , subHeadName , IsB
           <p className={`${IsHead ? 'subintro-heading1' : 'subintro-heading2'}`}>{heading}</p>
         </div>
       </div>
-      <div className="subintro-description-row">
-        <div className="text-center">
-          <p className="subintro-description">{description}</p>
+      {
+        !isNoDes &&
+        <div className="subintro-description-row">
+          <div className="text-center">
+            <p className="subintro-description">{description}</p>
+          </div>
         </div>
-      </div>
+      }
       {
       IsButton == true &&
         <div className={`${IsInput ? 'subintro-btn-row-is-input' : 'subintro-btn-row-no-input'}`}>

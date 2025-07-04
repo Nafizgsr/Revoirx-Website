@@ -12,6 +12,7 @@ import ContactUs from './components/Contact-Us-page/ContactUs';
 import CaseStudies from './components/Case-Studies-page/CaseStudies';
 import Changelog from './components/Change-Log-page/Changelog';
 import Career from './components/Career-page/Career';
+import TermsService from './components/Terms-Service-page/TermsService';
 import Error404Page from './components/Error-404-page/Error404Page';
 
 
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
   },{
     path:'/career',
     element:<Career/>,
+    errorElement:<Error404Page/>
+  },{
+    path:'/terms-of-service',
+    element:<TermsService/>,
     errorElement:<Error404Page/>
   }
 ])
