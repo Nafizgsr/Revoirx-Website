@@ -1,0 +1,77 @@
+.changelog-intro-container{
+    margin-top: 80px !important;
+}
+
+.changelog-info-container{
+    padding: 120px;
+}
+
+.changelog-info-sub-container{
+    width: 1290px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    gap: 30px;
+}
+
+.changelog-info-version-container{
+    min-width: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.changelog-info-version-heading {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: -0.96px;
+}
+
+.changelog-info-version-date {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: 0px;
+  color: var(--primary-color-white-70);
+}
+
+.changelog-info-description-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.changelog-info-description-heading {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -1.92px;
+}
+
+.changelog-info-description-sub-head,
+.changelog-info-description-sub-des {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--primary-color-white-70) !important;
+}
+
+.changelog-info-sub-container{
+    padding-top: 80px;
+    border-top: 1px solid var(--card-color);
+}
+
+.changelog-info-description-img{
+    width: 850px;
+    height: 403.2317199707031px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.changelog-info-description-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

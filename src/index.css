@@ -1,0 +1,32 @@
+:root {
+  --primary-color-black: #101217;
+  --primary-color-dark-black: #08090A;
+  --primary-color-black-30: #1012174D;
+  --primary-color-white: #ECECEC;
+  --primary-color-white-60: #ECECEC99;
+  --primary-color-white-70: #ECECECB2;
+  --primary-color-white-30: #ECECEC4D;
+  --border-color: #26283033;
+  --card-color: #262830;
+
+  --primary-color-yellow: #E9C224;
+}
+
+body{
+  font-family: 'Inter Display' !important;
+  background-color: var(--primary-color-black);
+  color: var(--primary-color-white);
+
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* .container-xl{
+  width: 1290px;
+} */

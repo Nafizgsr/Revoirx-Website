@@ -1,0 +1,131 @@
+.questions-main-container{
+    /* width:850px !important; */
+    padding: 120px;
+}
+
+.questions-h {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.questions-intro-row{
+    margin-top: 20px !important;
+    margin-bottom:80px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.questions-intro {
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 153.6px;
+  letter-spacing: -5.12px;
+}
+
+.questions-des {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--primary-color-white-70) !important;
+}
+
+
+.card-center {
+  width: 100% !important;
+}
+
+
+.card {
+  width: 850px !important;
+  background-color: #262830 !important;
+  color: var(--primary-color-white) !important;
+  border: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 4px !important;
+  border-radius: 30px !important;
+  padding: 30px !important;
+  overflow: hidden;
+  max-height: 98px;
+  transition: max-height .6s ease-in-out;
+  /* transition: max-height 1s ease-in-out, padding 1s ease-in-out; */
+}
+
+.isExpanded {
+  max-height: 1000px;
+  padding-bottom: 30px !important;
+}
+
+.not-expanded {
+  max-height: 98px;
+  padding-bottom: 30px !important;
+}
+
+
+.card-header-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.card-header-col p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: -1.28px;
+}
+
+.card-content-row {
+  overflow: hidden;
+  transition: max-height .8s ease-in-out, opacity .8s ease-in-out !important;
+  max-height: 0;
+  opacity: 0;
+}
+
+.card-content-row.expanded {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.card-content-row.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+
+
+.card-content-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.card-content-col p {
+    text-align: start;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px; 
+    letter-spacing: 0px;
+}
+
+
+.dropdown-button{
+    border: none;
+    background: none;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.8s ease-in-out;
+}
+
+.dropdown-button svg {
+  transition: transform 0.8s ease-in-out;
+}
+
+

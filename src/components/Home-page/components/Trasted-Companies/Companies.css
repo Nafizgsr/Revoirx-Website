@@ -1,0 +1,30 @@
+.companies-section{
+    padding: 120px;
+}
+
+.c-intro{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--primary-color-white-30);
+    margin-bottom: 60px;
+}
+
+.companies-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px !important;
+}
+
+.logo{
+    width: 200px;
+    height: 55.999725341796875px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    color: var(--primary-color-white);
+}

@@ -1,0 +1,157 @@
+.main-services-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.service-h {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.service-intro {
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 153.6px;      
+  letter-spacing: -5.12px;
+  text-align: center;
+}
+
+.see-all-services-row {
+  margin-top: 50px !important;
+  margin-bottom: 80px !important;
+}
+
+.see-all-services-col {
+  display: flex;
+  justify-content: center;
+}
+
+.see-all-services-btn {
+  width: 170px;
+  height: 44px;
+  border-radius: 100px;
+  border: none;
+  padding-top: 16px;
+  padding-right: 3px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color-yellow);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: var(--primary-color-black);
+}
+
+.see-all-services-icon {
+  margin-left: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 100px;
+  background-color: var(--primary-color-black);
+  color: var(--primary-color-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see-all-services-icon svg{
+  stroke: var(--primary-color-yellow);
+}
+
+.services-list-container{
+  width: 100%;
+}
+
+.services-list-container ul{
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.services-list-container ul li{
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.services-list-container ul li:hover{
+  background-color: var(--primary-color-yellow);
+  color: var(--primary-color-black);
+}
+
+.services-list-container ul li:hover .service-list-button{
+  background-color: var(--primary-color-black);
+}
+
+.services-list-container ul li:hover .service-list-button svg{
+  fill: var(--primary-color-white);
+}
+
+.service-list-item{
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width:1488px !important;
+}
+
+.service-index-container{
+  width: 136px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.service-index {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 115.2px;  
+  letter-spacing: -2.88px;
+  vertical-align: middle;
+}
+
+
+.service-heading {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76.8px;
+  letter-spacing: -2.56px;
+  white-space: pre-wrap;
+}
+
+
+.service-description{
+  width: 650px !important; /*7668*/
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+
+
+.service-list-button{
+  width: 116px;
+  height: 116px;
+  padding: 30px;
+  border-radius: 360px;
+  border: none;
+  background-color: var(--primary-color-white);
+}
+
+.service-list-button svg{
+  fill: var(--primary-color-black);
+}

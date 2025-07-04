@@ -1,0 +1,97 @@
+.steps-container{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 219px;
+    padding-right: 219px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--primary-color-dark-black);
+    border-radius: 40px;
+}
+
+.steps-s-h {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.steps-h-row{
+    margin-top: 20px !important;
+}
+
+.steps-h {
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 153.6px;
+  letter-spacing: -5.12px;
+}
+
+.steps-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.steps-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.steps-card{
+    width: 476;
+    height: 377;
+    gap: 32px;
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid #26283066;
+}
+
+.steps-index-container {
+  width: 78px;
+  height: 25px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color-yellow);
+  color: var(--primary-color-black);
+}
+
+.steps-index-container p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 0px;
+}
+
+
+
+.steps-index-col{
+    display: flex;
+    justify-content: center;
+}
+
+.card-steps-h-row{
+    margin-top: 24px !important;
+}
+
+.card-steps-h {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -1.92px;
+}
+
+.card-steps-d-row{
+    margin-top: 24px !important;
+}
+
+.card-steps-d {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
