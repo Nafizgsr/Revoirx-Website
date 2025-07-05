@@ -1,3 +1,72 @@
 .terms-service-subintro-container{
     margin-top: 80px !important;
 }
+
+.terms-service-container{
+    padding:120px;
+}
+
+.terms-service-sub-container{
+    width: 1290px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 81px;
+    border-top: 1px solid var(--card-color);
+    display: flex;
+    gap: 30px;
+}
+
+.terms-service-heading-div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 410px;
+}
+
+.terms-service-heading {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: -1.28px;
+  color: var(--primary-color-white-70) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.terms-service-heading-active {
+  font-family: Inter Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: -1.28px;
+  color: var(--primary-color-white) !important;
+}
+
+
+.terms-service-des-div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.terms-service-des-heading {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -1.92px;
+}
+
+
+.terms-service-des-info-heading {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--primary-color-white-70) !important;
+}
+
