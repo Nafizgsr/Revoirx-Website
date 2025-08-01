@@ -28,3 +28,35 @@
 .logo img{
     color: var(--primary-color-white);
 }
+
+@media (max-width: 428px){
+    .companies-section{
+        padding: 0px;
+    }
+
+    .c-intro {
+        width: 388px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0px;
+    }
+
+    .companies-div{
+        gap: 10px;
+        margin-top: 24px !important;
+    }
+
+    .logo{
+        width: 1070.99px;
+        height: 19.22px;
+        margin-top: 5.62px !important;
+        margin-bottom: 5.62px !important;
+        margin-left: 18.21px !important;
+        margin-right: 18.21px !important;
+    }
+
+}

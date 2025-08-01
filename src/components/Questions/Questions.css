@@ -130,3 +130,62 @@
 }
 
 
+@media (max-width: 428px){
+  .questions-main-container{
+    padding: 40px 20px;
+  }
+  .questions-intro-row{
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+  }
+  .questions-intro {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -1.92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    width: 388px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .card-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    width: 100%;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    max-height: 136px;
+    border-radius: 20px;
+  }
+
+  .isExpanded {
+    max-height: 1000px;
+    padding-bottom: 30px !important;
+  }
+
+  .not-expanded {
+    max-height: 136px;
+    padding-bottom: 30px !important;
+  }
+
+
+  .card-header-col p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: -1.28px;
+  }
+}
+

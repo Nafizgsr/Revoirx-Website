@@ -35,3 +35,15 @@
   color: var(--primary-color-white-70) !important;
 }
 
+@media (max-width: 428px){
+  .status-container{
+    padding: 40px 20px !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .status-card{
+    width: 100% !important;
+  }
+}
+

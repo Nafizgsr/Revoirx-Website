@@ -1,6 +1,6 @@
 .intro-main-container {
   width: 100%;
-  min-height: 100vh; /* ensures it takes full screen height */
+  height: 100vh; /* ensures it takes full screen height */
   position: relative;
 }
 
@@ -10,11 +10,47 @@
   margin-top: 80px;
 }
 
+.intro-name-div {
+height: 25px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+gap: 12px;
+border-radius: 100px;
+position: relative;
+background-color: var(--primary-color-black);
+}
+
+.intro-name-div::before{
+  content: '';
+  background: linear-gradient(171.63deg, rgba(236, 236, 236, 0.1) 5.86%, rgba(236, 236, 236, 0) 93.17%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 100px;
+  margin: -1px;
+}
+
+
+
+
+.intro-name-div p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 0px;
+}
+
 .intro-text {
   font-size: 128px;
   font-weight: 500;
   line-height: 153.6px;
   letter-spacing: -5.12px;
+  margin-top: 20px !important;
 }
 
 .intro-text span {
@@ -29,7 +65,6 @@
   object-fit: cover; /* optional, keep aspect ratio */
   z-index: 0;
   pointer-events: none;
-  preserveAspectRatio: none;
 }
 
 .background-svg svg{
@@ -47,6 +82,7 @@
   font-weight: 300;
   line-height: 32px;
   letter-spacing: 0px;
+  color: var(--primary-color-white-70) !important;
 }
 
 .get-started-row {
@@ -91,6 +127,49 @@
 
 .get-started-icon svg{
   stroke: var(--primary-color-yellow);
+}
+
+@media (max-width: 428px){
+  .intro-main-container{
+    width: 100%;
+    height:355px !important;
+    max-height:355px !important;
+  }
+  .intro-container{
+    padding: 0px;
+    width: 100%;
+  }
+
+  .intro-text {
+    width: 388px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -1.92px;
+  }
+
+.description-text {
+  width: 388px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.background-svg{
+  height: 335px !important;
+}
+
+.get-started-row {
+  margin-top: 32px !important;
+}
+
 }
 
 svg .circle-1 { animation: moveCircle1 24.0s infinite alternate ease-in-out; }

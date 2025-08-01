@@ -154,3 +154,26 @@
 .read-more-icon-circle-is-heighlight svg{
   stroke: var(--primary-color-yellow);
 }
+
+
+@media (max-width: 428px){
+  .news-container{
+    padding: 40px 20px;
+  }
+
+  .news-h {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -4%;
+  }
+
+  .news-grid-row{
+    margin-top: 40px !important;
+  }
+
+  .news-grid-col{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}

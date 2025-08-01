@@ -4,6 +4,9 @@ const Services = ()=>{
     const formatNumber = (num) => {
         return num < 10 ? `0${num}` : `${num}`;
     };
+    const isMobileWidth = () => {
+        return window.innerWidth <= 418
+    };
     const services = [
         {
             id:1,name:'SEO<br/>Marketing',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
@@ -51,7 +54,9 @@ const Services = ()=>{
                                 <p className='service-index'>{formatNumber(item.id)}</p>
                             </div>
                             <p className='service-heading' dangerouslySetInnerHTML={{ __html: item.name }}></p>
+                            {isMobileWidth() && <br />}
                             <p className='service-description'>{item.description}</p>
+                            {isMobileWidth() && <br />}
                             <button className="service-list-button">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M35.9968 0.00341797V30.0034H33.9968V3.41748L1.41772 35.9966L0.00366211 34.5815L32.5818 2.00342H5.99683V0.00341797H35.9968Z"/>

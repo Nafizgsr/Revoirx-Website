@@ -141,3 +141,49 @@ ul .home{
     background-color: #262830;
     border-radius: 99px;
 }
+
+.nav-mobile-container{
+    display: none;
+  }
+
+  .nav-mobile-logo{
+    width: 135.06558227539062px;
+    height: 24.00052833557129px;
+  }
+
+  .nav-mobile-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+  .main-mobile-nav{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    width: 388px;
+    height: 24.00052833557129px;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+  .nav-mobile-menu-btn{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media (max-width: 428px) {
+  .nav-container{
+    display: none;
+  }
+
+  .nav-mobile-container{
+    display: block;
+  }
+
+
+}

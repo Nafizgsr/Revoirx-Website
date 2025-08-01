@@ -95,3 +95,34 @@
   letter-spacing: 0px;
 }
 
+
+@media (max-width: 428px){
+  .steps-container{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding: 40px 20px;
+  }
+
+  .steps-h-row{
+    margin-top: 12px;
+  }
+
+  .steps-h {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -1.92px;
+  }
+
+  .steps-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .steps-grid{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+}
