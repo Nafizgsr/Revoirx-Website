@@ -24,6 +24,9 @@
   border-radius: 8px;
   border-width: 1px;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   border: 1px solid #26283066
 }
 
@@ -60,7 +63,6 @@
   line-height: 57.6px;
   letter-spacing: -1.92px;
   text-align: start;
-  margin-top: 24px !important;
 }
 
 .reason-card-description {
@@ -72,4 +74,28 @@
   color: var(--primary-color-white-70);
 }
 
+@media (max-width: 428px){
+  .reason-container{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
 
+  .reason-header {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -1.92px;
+  }
+
+  .reason-grid{
+    padding: 40px 20px !important;
+    padding-bottom: 0px !important;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .reason-card{
+    width: 100% !important;
+  }
+}

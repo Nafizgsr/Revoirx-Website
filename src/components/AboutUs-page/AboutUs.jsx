@@ -86,16 +86,25 @@ const AboutUs = () => {
             buttonText="Get Started"
             subHeadName='Company'
             IsHead={false}
+            IsButton = {true}
             onClick={() => console.log('Button clicked')}
         />
         </div>
         <VideoContainer/>
         <CompanyInfo/>
+        <Companies/>
         <Reason/>
         <Founders/>
-        <Status/>
+        <Status
+            heading1="200+"
+            description1="Successful Projects"
+            heading2="4.8"
+            description2="Client Satisfaction Rate"
+            heading3="60+"
+            description3="Industries Served Globally"
+        />
         <CompanyComments/>
-        <Companies/>
+        {/* <Companies/> */}
         <Subintro 
             heading="Inspired?"
             description="Create something from nothing, just describe what's on your mind"

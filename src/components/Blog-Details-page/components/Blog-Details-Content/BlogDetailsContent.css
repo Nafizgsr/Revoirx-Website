@@ -36,3 +36,33 @@
   margin-bottom: 16px !important;
 }
 
+@media (max-width: 428px){
+  .blog-details-content-container{
+    padding: 40px 20px;
+    margin-top: 40px !important;
+  }
+
+  .blog-details-content-description {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0px;
+  }
+
+  .blog-details-content-img{
+    height: 184.06px;
+  }
+
+  .blog-details-content-heading {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: -1.28px;
+  }
+
+
+}
+
+

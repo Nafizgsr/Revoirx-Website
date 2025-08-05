@@ -7,7 +7,9 @@ const Founders = () =>{
     ]
     return (<>
         <div className="founders-container">
-            {
+            <p className="founder-header">Founders</p>
+            <div className="founder-grid">
+                {
                 foundersList.map((item,index)=>(
                     <div className="founders-card" key={index}>
                         <div className="founders-img">
@@ -18,6 +20,7 @@ const Founders = () =>{
                     </div>
                 ))
             }
+            </div>
         </div>
     </>)
 }

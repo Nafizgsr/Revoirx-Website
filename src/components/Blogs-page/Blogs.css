@@ -57,7 +57,7 @@
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 0px;
-    color: var(--primary-color-white-70);
+    color: var(--primary-color-white-70) !important;
 }
 
 
@@ -96,4 +96,45 @@
 
 .blogs-type-active{
     background: #262830;
+}
+
+@media (max-width: 428px){
+    .blogs-intro-container{
+        padding: 0px 20px !important;
+        margin-top: 84px !important;
+    }
+
+    .blogs-intro-heading {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+        line-height: 57.6px;
+        letter-spacing: -1.92px;
+        text-align: center;
+    }
+
+    .blogs-intro-description {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .blogs-type-list li a {
+        padding: 11px 16px !important;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 13px; /* 14px */
+        line-height: 16.8px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+
+    .blogs-type-list-container{
+        width: 100%;
+        margin-bottom: 92px !important;
+    }
 }

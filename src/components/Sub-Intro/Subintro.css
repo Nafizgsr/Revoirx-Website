@@ -176,3 +176,43 @@ background-color: var(--primary-color-black);
   outline: none;
 }
 
+
+@media (max-width: 428px){
+  .subintro-container{
+    padding: 0px 20px;
+  }
+
+  .subintro-head-row{
+    width: 100% !important;
+  }
+
+  .subintro-heading1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 96px !important;
+    line-height: 115.2px;
+    letter-spacing: -3.84px;
+  }
+
+  .subintro-heading2 {
+    margin-top: 20px !important;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px !important;
+    line-height: 57.6px;
+    letter-spacing: -1.92px;
+  }
+
+
+  .subintro-description{
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px !important;
+    line-height: 160%;
+    letter-spacing: 0%;
+  }
+
+  .subintro-btn-row-no-input{
+    margin-top: 30px !important;
+  }
+}

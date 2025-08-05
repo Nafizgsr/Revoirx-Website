@@ -137,3 +137,15 @@
 .blog-list-highlighted-card-column{
   grid-column: span 2 !important;
 }
+
+
+@media (max-width: 428px){
+  .blogs-list-container{
+    padding: 0px 20px;
+    margin-bottom: 40px !important;
+    grid-template-columns: repeat(1, 1fr); 
+  }
+  .blog-list-highlighted-card-column{
+  grid-column: span 1 !important;
+}
+}
