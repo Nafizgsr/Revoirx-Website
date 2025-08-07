@@ -70,3 +70,11 @@
 .contact-us-icon svg {
   stroke: var(--primary-color-yellow);
 }
+
+@media (max-width:428px){
+  .contact-us-form-card{
+    margin:40px 20px !important;
+    width: auto !important;
+    padding: 40px 20px;
+  }
+}

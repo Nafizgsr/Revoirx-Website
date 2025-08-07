@@ -63,4 +63,32 @@
     color: var(--primary-color-white-70) !important;
 }
 
+@media (max-width:428px){
+    .contact-us-intro-container{
+        margin-top: 84px;
+        padding: 0px 20px;
+    }
+
+    .contact-us-intro-heading {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+        line-height: 57.6px;
+        letter-spacing: -1.92px;
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    .contact-us-intro-description {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+
+}
+
 

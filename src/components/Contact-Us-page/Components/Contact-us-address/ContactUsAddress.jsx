@@ -10,7 +10,7 @@ const ContactUsAddress = () =>{
                             <li><a>Linkedin</a></li>
                             <li><a>Youtube</a></li>
                             <li><a>Discord</a></li>
-                            <li><a>Instagram</a></li>
+                            {/* <li><a>Instagram</a></li> */}
                         </ul>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const ContactUsAddress = () =>{
                     </div>
                 </div>
                 <div class="contact-us-address-div3">
-                    <div className="contact-us-address-card text-center" style={{ height: "100%" }}>
+                    <div className="contact-us-address-card text-center" style={{ height: "auto%" }}>
                         <p className="contact-us-address-div-3-card-sub-heading extra-margin">General</p>
                         <p className="contact-us-address-div-3-card-email">hay-yo@spice.ai</p>
                         <p className="contact-us-address-div-3-card-number">+1 414 207 9724</p>

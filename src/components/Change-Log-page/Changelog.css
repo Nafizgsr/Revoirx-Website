@@ -75,3 +75,54 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+@media(max-width:428px){
+  .changelog-intro-container{
+    margin-top: 84px !important;
+  }
+
+  .changelog-info-container{
+    padding: 0px 20px;
+    margin-top: 84px !important;
+  }
+
+  .changelog-info-sub-container{
+    width: 100% !important;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    flex-direction: column;
+  }
+
+  .changelog-info-version-container{
+    min-width: auto !important;
+  }
+
+  .changelog-info-description-img{
+    width: 100% !important;
+    height: 184.06px !important;
+  }
+
+  .changelog-info-description-img img{
+    border-radius: 12px;
+  }
+
+  .changelog-info-description-heading {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: -1.28px;
+  }
+
+  .changelog-info-description-sub-head,
+  .changelog-info-description-sub-des {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0px;
+  }
+
+
+}

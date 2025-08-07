@@ -215,4 +215,8 @@ background-color: var(--primary-color-black);
   .subintro-btn-row-no-input{
     margin-top: 30px !important;
   }
+
+  .subintro-btn-row-is-input {
+    margin-top: 40px !important;
+  }
 }

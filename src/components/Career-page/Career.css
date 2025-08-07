@@ -301,6 +301,154 @@
   color: var(--primary-color-white-70);
 }
 
+@media (max-width:428px){
+    .career-intro-container{
+        margin-top: 84px !important;
+    }
+
+    .career-image-container{
+        width: 100% !important;
+        padding: 40px 20px !important;
+        gap: 5px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .career-image-sub-container{
+        gap: 5px !important;
+    }
+
+    .career-image-div-1{
+        width: 127.26399993896484px !important;
+        height: 129.12640380859375px !important;
+    }
+
+    .career-image-div-2{
+        width: 127.26399993896484px !important;
+        height: 72.63359832763672px !important;
+    }
+
+    .mission-values-container{
+        padding: 40px 20px !important;
+    }
+
+    .mission-values-sub-container{
+        width: auto !important;
+        flex-direction: column !important;
+        padding-bottom: 40px !important;
+    }
+
+    .mission-values-header {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: -1.28px;
+    }
+
+    .mission-values-des-sub-div{
+        gap: 24px !important;
+    }
+
+    .mission-values-des-heading {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: -1.28px;
+    }
+
+
+    .mission-values-des-description {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+    }
+
+    .vission-container{
+        padding: 40px 20px !important;
+        gap: 30px;
+    }
+
+    .vission-card{
+        flex-direction: column;
+        width: auto !important;
+    }
+
+    .vission-img-div{
+        min-width: 388px !important;
+        width: 388px !important;
+        height: 605px !important;
+        overflow: hidden;
+        margin-top: 40px !important;
+    }
+
+    .vission-info-heading {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: -1.28px;
+    }
+
+    .vission-info-des {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+    }
+
+
+    .career-position-container{
+        padding: 40px 20px;
+    }
+
+    .career-position-header {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+        line-height: 57.6px;
+        letter-spacing: -1.92px;
+        text-align: center;
+    }
+
+    .career-position-sub-container{
+        width: 100% !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .career-position-card{
+        min-width: 388px !important;
+        width: 388px !important;
+        height: 254px !important;
+    }
+
+    .caree-no-position-container{
+        width: 100% !important;
+    }
+
+    .career-no-position-heading {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: -1.28px;
+    }
+
+    .career-no-position-des {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+    }
+
+
+}
+
 
 
 
