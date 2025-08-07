@@ -1,3 +1,10 @@
 .error-404-container{
     margin-top: 80px !important;
 }
+
+@media (max-width:428px){
+    .error-404-container{
+        margin-top: 84px !important;
+        margin-bottom: 46px !important;
+    }
+}
