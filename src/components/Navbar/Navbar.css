@@ -10,6 +10,11 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+.nav-with-sub{
+    position: relative;
+}
+
 .main-nav{
     width: 100%;
     height: 64px;
@@ -68,12 +73,27 @@ ul li a i{
     margin-left: 4px;
 }
 
-ul .home{
+.nav-list ul li a{
+    transition: color 0.25s ease, border-color 0.25s ease, padding 0.25s ease, transform 0.25s ease;
+}
+
+.nav-list ul li a:hover{
+    border: 1px solid var(--border-color);
+    color: var(--primary-color-white) !important;
+    padding: 2px 16px;
+    border-radius: 360px;;
+}
+
+.nav-list ul li .glow{
+    color: var(--primary-color-white) !important;
+}
+
+/* ul .home{
     border: 1px solid var(--border-color);
     color: var(--primary-color-white);
     padding: 2px 16px;
     border-radius: 360px;;
-}
+} */
 
 .lets-talk-btn{
     padding: 11px 16px;
@@ -175,6 +195,86 @@ ul .home{
     align-items: center;
     justify-content: center;
   }
+
+
+.nav-sub-menu {      /* shrink to content */
+  width: fit-content;           /* don’t stretch */
+  min-height: 49px !important;
+  padding: 5px !important;
+  gap: 5px;
+  background: #26283066;
+  backdrop-filter: blur(6px);   /* needs a value */
+  /* border: 1px solid white; */
+  border-radius: 99px;          /* uncomment for pill style */
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  /* display: none; */
+}
+
+.resource-menu{
+    opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+    height: auto;
+  display: inline-flex;   
+  top: 71.51px;
+  right:80px;
+  z-index: 1000;
+}
+
+.resource-menu.show {
+  display: block;               /* show on toggle */
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+  z-index: 1001;
+}
+
+.service-menu{
+    opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+    height: auto;
+  display: inline-flex;  
+  top: 71.51px;
+  right:410px; 
+  z-index: 1000;
+}
+
+.service-menu.show {
+  display: block;               /* show on toggle */
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+  z-index: 1001;
+}
+
+.nav-sub-ul {
+  display: flex;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none;             /* remove bullets */
+  gap: 5px;                     /* spacing between li */
+}
+
+.nav-sub-ul li{
+    padding: 0px !important;
+    /* margin: 5px !important; */
+}
+
+.nav-sub-ul li a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 11px 16px !important; /* shorthand */
+  /* border: 1px solid white; */
+  transition: 0.2s ease-in-out;
+}
+
+.nav-sub-ul li a:hover{
+    background-color: #262830;
+    backdrop-filter: blur;
+}
 
 @media (max-width: 428px) {
   .nav-container{

@@ -1,13 +1,36 @@
 import { useNavigate } from 'react-router-dom';
+import  {useState}  from "react";
 import './Navbar.css'
 const Navbar = () => {
     const navigate = useNavigate();
     const letsTalkBtn = () =>{
         navigate('/contact-us');
     }
+    const [showMenu1, setShowMenu1] = useState(false);
+    const [showMenu2, setShowMenu2] = useState(false);
+       const toggleMenu1 = () => {
+        if (showMenu1) {
+            setShowMenu1(false);
+        } else {
+            setShowMenu1(true);
+            setShowMenu2(false);
+        }
+        };
+
+    const toggleMenu2 = () => {
+    if (showMenu2) {
+        setShowMenu2(false);
+    } else {
+        setShowMenu2(true);
+        setShowMenu1(false);
+    }
+    };
+
+
     return (<>
         <div className="nav-container">
-            <nav className='main-nav'>
+            <div className="nav-with-sub">
+                <nav className='main-nav'>
                 <div className="logo-div">
                     <svg width="222" height="44" viewBox="0 0 222 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M80.1845 37.5841C79.2425 38.9098 78.0748 40.0595 76.7345 40.9806C75.3637 41.9693 73.8334 42.7156 72.2103 43.187C70.5043 43.7313 68.7235 44.005 66.9328 43.9983C64.7938 44.0303 62.6707 43.6269 60.6925 42.8126C58.8163 42.0604 57.1086 40.9422 55.6691 39.5231C54.2513 38.0982 53.1488 36.3913 52.433 34.513C50.8521 30.4415 50.8521 25.9257 52.433 21.8541C53.2015 20.0062 54.3183 18.3234 55.7226 16.8975C57.1292 15.4708 58.8171 14.352 60.6791 13.6125C62.6567 12.796 64.7803 12.3926 66.9194 12.4268C69.1869 12.4049 71.4369 12.8258 73.5431 13.666C75.4529 14.4958 77.1617 15.7272 78.5531 17.2764C79.9425 18.895 81.0201 20.7569 81.7312 22.7679C82.5092 25.0255 82.8907 27.4006 82.8589 29.7882H59.1681C59.3606 31.9395 60.2931 33.9574 61.8069 35.4981C62.5096 36.2071 63.3506 36.7641 64.2777 37.1344C65.2047 37.5048 66.198 37.6806 67.1958 37.651C68.8415 37.6641 70.4606 37.2363 71.8849 36.4118C73.1717 35.6699 74.1894 34.5383 74.7911 33.1803H82.2795C81.8582 34.7646 81.148 36.2576 80.1845 37.5841ZM72.4243 20.4545C70.9643 19.2272 69.1022 18.5826 67.1958 18.6448C65.2963 18.5996 63.4498 19.2729 62.0253 20.5303C60.5755 21.8393 59.6228 23.6093 59.3286 25.5404H75.17C74.8983 23.5683 73.9213 21.7615 72.4198 20.4545H72.4243Z" fill="white"/>
@@ -26,8 +49,8 @@ const Navbar = () => {
                     <ul>
                         <li className='home'><a href='/'>Home</a></li>
                         <li><a href='/about-us'>About Us</a></li>
-                        <li className='nav-has-dropdown'>
-                            <a>
+                        <li>
+                            <a className={`resources-class ${showMenu2 ? "glow" : ""}`} onClick={toggleMenu2}>
                                 Services <i className="fa-solid fa-angle-down"></i>
                                 
                             </a>
@@ -41,11 +64,28 @@ const Navbar = () => {
                             </div> */}
                         </li>
                         <li><a>Projects</a></li>
-                        <li><a>Resources <i className="fa-solid fa-angle-down"></i></a></li>
+                        <li><a className={`resources-class ${showMenu1 ? "glow" : ""}`} onClick={toggleMenu1}>Resources <i className="fa-solid fa-angle-down"></i></a></li>
                     </ul>
                 </div>
                 <button className='lets-talk-btn' onClick={()=> letsTalkBtn()}>Let's Talk</button>
             </nav>
+            <div className={`nav-sub-menu resource-menu ${showMenu1 ? "show" : ""}`}>
+                <ul className="nav-sub-ul">
+                    <li><a href="/blogs">Blogs</a></li>
+                    <li><a href="/case-studies">Case Studies</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Inspiration</a></li>
+                </ul>
+            </div>
+            <div className={`nav-sub-menu service-menu ${showMenu2 ? "show" : ""}`}>
+                <ul className="nav-sub-ul">
+                    <li><a href="/">UI/UX Design</a></li>
+                    <li><a href="/">UI/UX Design</a></li>
+                    <li><a href="/">UI/UX Design</a></li>
+                    <li><a href="/">UI/UX Design</a></li>
+                </ul>
+            </div>
+            </div>
         </div>
         <div className='nav-mobile-container'>
             <div className='main-mobile-nav'>
@@ -70,6 +110,8 @@ const Navbar = () => {
             </div>
         </div>
     </>)
+
+
 }
 
 export default Navbar;
