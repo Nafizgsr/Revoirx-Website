@@ -8,6 +8,7 @@ const Navbar = () => {
     }
     const [showMenu1, setShowMenu1] = useState(false);
     const [showMenu2, setShowMenu2] = useState(false);
+       // eslint-disable-next-line no-unused-vars
        const toggleMenu1 = () => {
         if (showMenu1) {
             setShowMenu1(false);
@@ -54,17 +55,9 @@ const Navbar = () => {
                                 Services <i className="fa-solid fa-angle-down"></i>
                                 
                             </a>
-                            {/* <div className="sub-nav-list-div">
-                                <ul className="sub-nav-list">
-                                    <li className="sub-nav-list-item"><a>Blogs</a></li>
-                                    <li className="sub-nav-list-item"><a>Case&nbsp;Studies</a></li>
-                                    <li className="sub-nav-list-item"><a>About</a></li>
-                                    <li className="sub-nav-list-item"><a>Inspiration</a></li>
-                                </ul>
-                            </div> */}
                         </li>
-                        <li><a>Projects</a></li>
-                        <li><a className={`resources-class ${showMenu1 ? "glow" : ""}`} onClick={toggleMenu1}>Resources <i className="fa-solid fa-angle-down"></i></a></li>
+                        {/* <li><a>Projects</a></li>
+                        <li><a className={`resources-class ${showMenu1 ? "glow" : ""}`} onClick={toggleMenu1}>Resources <i className="fa-solid fa-angle-down"></i></a></li> */}
                     </ul>
                 </div>
                 <button className='lets-talk-btn' onClick={()=> letsTalkBtn()}>Let's Talk</button>
