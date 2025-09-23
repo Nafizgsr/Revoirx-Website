@@ -2,16 +2,11 @@ import './MediaSection.css'
 
 const MediaSection = () =>{
     const mediaImages = [
-        {id:1, img:'Images/mediaImg.png'},
-        {id:2, img:'Images/mediaImg.png'},
-        {id:3, img:'Images/mediaImg.png'},
-        {id:4, img:'Images/mediaImg.png'},
-        {id:5, img:'Images/mediaImg.png'},
-        {id:6, img:'Images/mediaImg.png'},
-        {id:7, img:'Images/mediaImg.png'},
-        {id:8, img:'Images/mediaImg.png'},
-        {id:9, img:'Images/mediaImg.png'},
-        {id:10, img:'Images/mediaImg.png'}
+        {id:1, img:'Images/mediaImg1.png'},
+        {id:2, img:'Images/mediaImg2.png'},
+        {id:3, img:'Images/mediaImg3.png'},
+        {id:4, img:'Images/mediaImg4.png'},
+        {id:5, img:'Images/mediaImg5.png'}
     ]
     return (
         <>
