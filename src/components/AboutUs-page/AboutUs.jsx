@@ -92,9 +92,9 @@ const AboutUs = () => {
         </div>
         <VideoContainer/>
         <CompanyInfo/>
-        <Companies/>
+        {/* <Companies/> */}
         <Reason/>
-        <Founders/>
+        {/* <Founders/> */}
         <Status
             heading1="200+"
             description1="Successful Projects"
@@ -103,7 +103,7 @@ const AboutUs = () => {
             heading3="60+"
             description3="Industries Served Globally"
         />
-        <CompanyComments/>
+        {/* <CompanyComments/> */}
         {/* <Companies/> */}
         <Subintro 
             heading="Inspired?"

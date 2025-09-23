@@ -2,6 +2,9 @@
     width: 1290px !important;
     padding-top: 120px;
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px !important;
 }
 .footer-img{
     width: 225.11488342285156px;
@@ -169,6 +172,12 @@
   text-decoration: none;
   color: inherit;
   font-weight: 300;
+  transition: 0.2s ease-in-out;
+}
+
+.social-media-single-item:hover{
+  color: var(--primary-color-white);
+  text-decoration: underline;
 }
 
 .copy-right-info {

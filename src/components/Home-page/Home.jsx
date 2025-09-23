@@ -32,7 +32,7 @@ const Home = () => {
             heading3="60+"
             description3="Industries Served Globally"
         />
-        <News heading={'Explore world latest news'}/>
+        {/* <News heading={'Explore world latest news'}/> */}
         {/* <Testimonial/> */}
         <Subintro 
             heading="Inspired?"

@@ -30,12 +30,12 @@ const Footer = () =>{
                         <div className="col">
                             <div className="pages-link">
                                 <ul>
-                                    <li><a>About Us</a></li>
-                                    <li><a>Project</a></li>
+                                    <li><a href='/about-us'>About Us</a></li>
+                                    {/* <li><a>Project</a></li>
                                     <li><a>Case Studies</a></li>
-                                    <li><a>Blogs</a></li>
-                                    <li><a>Contact</a></li>
-                                    <li><a>Career</a></li>
+                                    <li><a>Blogs</a></li> */}
+                                    <li><a href='/contact-us'>Contact</a></li>
+                                    {/* <li><a>Career</a></li> */}
                                 </ul>
                             </div>
                         </div>
@@ -52,10 +52,10 @@ const Footer = () =>{
                         <div className="col">
                             <div className="pages-link">
                                 <ul>
-                                    <li><a>Change Log</a></li>
+                                    {/* <li><a>Change Log</a></li>
                                     <li><a>Cookie Policy</a></li>
-                                    <li><a>Privacy statement</a></li>
-                                    <li><a>Terms of service</a></li>
+                                    <li><a>Privacy statement</a></li> */}
+                                    <li><a href='/terms-of-service'>Terms of service</a></li>
                                     <li><a>Security</a></li>
                                 </ul>
                             </div>
@@ -95,10 +95,10 @@ const Footer = () =>{
             <div className="last-footer-div">
                 <div className="last-footer-col">
                     <ul className="social-media-list">
-                    <li className="social-media-single-item"><a href="#">Instagram</a></li>
-                    <li className="social-media-single-item"><a href="#">LinkedIn</a></li>
-                    <li className="social-media-single-item"><a href="#">YouTube</a></li>
-                    <li className="social-media-single-item"><a href="#">Discord</a></li>
+                    {/* <li className="social-media-single-item"><a href="#">Instagram</a></li> */}
+                    <li className="social-media-single-item"><a href="https://www.linkedin.com/company/revoir-x/">LinkedIn</a></li>
+                    {/* <li className="social-media-single-item"><a href="#">YouTube</a></li>
+                    <li className="social-media-single-item"><a href="#">Discord</a></li> */}
                     </ul>
                     <p className="copy-right-info">Copyright 2025 @ All Rights Reserved.</p>
                 </div>

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import  {useState}  from "react";
+import { useState, useRef, useEffect } from "react";
 import './Navbar.css'
 const Navbar = () => {
     const navigate = useNavigate();
@@ -8,6 +8,7 @@ const Navbar = () => {
     }
     const [showMenu1, setShowMenu1] = useState(false);
     const [showMenu2, setShowMenu2] = useState(false);
+    const navRef = useRef(null);
        // eslint-disable-next-line no-unused-vars
        const toggleMenu1 = () => {
         if (showMenu1) {
@@ -27,9 +28,24 @@ const Navbar = () => {
     }
     };
 
+    useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        // Clicked outside nav → close both
+        setShowMenu1(false);
+        setShowMenu2(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
 
     return (<>
-        <div className="nav-container">
+        <div ref={navRef} className="nav-container">
             <div className="nav-with-sub">
                 <nav className='main-nav'>
                 <div className="logo-div">
@@ -72,10 +88,10 @@ const Navbar = () => {
             </div>
             <div className={`nav-sub-menu service-menu ${showMenu2 ? "show" : ""}`}>
                 <ul className="nav-sub-ul">
-                    <li><a href="/">UI/UX Design</a></li>
-                    <li><a href="/">UI/UX Design</a></li>
-                    <li><a href="/">UI/UX Design</a></li>
-                    <li><a href="/">UI/UX Design</a></li>
+                    <li><a href="/">Development Solutions</a></li>
+                    <li><a href="/">Digital Marketing</a></li>
+                    <li><a href="/">Creative & Branding</a></li>
+                    <li><a href="/">AI & Automation Services</a></li>
                 </ul>
             </div>
             </div>
