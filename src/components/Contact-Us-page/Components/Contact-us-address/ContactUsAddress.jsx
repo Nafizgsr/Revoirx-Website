@@ -20,13 +20,13 @@ const ContactUsAddress = () =>{
                     </div>
                 </div>
                 <div class="contact-us-address-div3">
-                    <div className="contact-us-address-card text-center" style={{ height: "auto%" }}>
+                    <div className="contact-us-address-card address-card text-center" style={{ height: "auto%" }}>
                         <p className="contact-us-address-div-3-card-sub-heading extra-margin">General</p>
-                        <p className="contact-us-address-div-3-card-email">hay-yo@spice.ai</p>
-                        <p className="contact-us-address-div-3-card-number">+1 414 207 9724</p>
+                        <p className="contact-us-address-div-3-card-email">revoirux@gamil.com</p>
+                        {/* <p className="contact-us-address-div-3-card-number">+1 414 207 9724</p> */}
                         <p className="contact-us-address-div-3-card-sub-heading address-extra-margin">Address</p>
                         <div className="contact-us-address-div-3-address-box">
-                            <p className="contact-us-address-div-3-address">442 N Green Ave San Francisco, CA94114, United States</p>
+                            <p className="contact-us-address-div-3-address">61 Union Street, Dunstable, England, LU61EX</p>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import './Intro.css';
+import Typing from 'react-typing-animation';
 const Intro =  ()=>{
     return (
         <div className="intro-main-container">

@@ -40,9 +40,13 @@
     background: #262830;
 }
 
+.address-card{
+  min-height: 435px;
+}
+
 .contact-us-address-img {
   width: 100%;
-  height: 422px;
+  height: inherit;
   border-radius: 12px;
   overflow: hidden; /* Ensures the image respects border-radius */
 }
@@ -131,7 +135,7 @@
 }
 
 .contact-us-address-div-3-address-box{
-    width: 596px;
+    max-width: 596px;
     margin-left: auto;
     margin-right: auto;
 }
