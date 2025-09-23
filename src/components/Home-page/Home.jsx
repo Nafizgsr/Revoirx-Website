@@ -16,14 +16,14 @@ const Home = () => {
         <Navbar/>
         <Intro/>
         <MediaSection/>
-        <Companies/>
+        {/* <Companies/> */}
         <Services/>
         <Steps
             isShowHowItsWork={true}
             heading="Unlocking Creativity in Simple Steps"
             isPadding1={true}
         />
-        <Questions isHeader={true} heading={"Questions?"}/>
+        {/* <Questions isHeader={true} heading={"Questions?"}/> */}
         <Status
             heading1="200+"
             description1="Successful Projects"
@@ -33,7 +33,7 @@ const Home = () => {
             description3="Industries Served Globally"
         />
         <News heading={'Explore world latest news'}/>
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <Subintro 
             heading="Inspired?"
             description="Create something from nothing, just describe what's on your mind"

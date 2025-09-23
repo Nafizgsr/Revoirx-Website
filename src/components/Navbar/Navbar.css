@@ -74,7 +74,7 @@ ul li a i{
 }
 
 .nav-list ul li a{
-    transition: color 0.25s ease, border-color 0.25s ease, padding 0.25s ease, transform 0.25s ease;
+    transition: color 0.25s ease, padding 0.25s ease, transform 0.25s ease;
 }
 
 .nav-list ul li a:hover{
@@ -237,7 +237,7 @@ ul li a i{
     height: auto;
   display: inline-flex;  
   top: 71.51px;
-  right:410px; 
+  right:350px; 
   z-index: 1000;
 }
 
