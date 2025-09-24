@@ -9,16 +9,16 @@ const Services = ()=>{
     };
     const services = [
         {
-            id:1,name:'SEO<br/>Marketing',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
+            id:1,name:'Development Solutions',description:'We design and develop high-performing online stores that convert visitors into loyal customers. From WooCommerce and Shopify to custom e-commerce platforms, we ensure secure payments, easy navigation, and optimized user experiences for maximum sales growth.'
         },
         {
-            id:2,name:'SEO<br/>Marketing',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
+            id:2,name:"Digital Marketing & Growth",description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
         },
         {
-            id:3,name:'SEO<br/>Marketing',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
+            id:3,name:'Creative & Branding',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
         },
         {
-            id:4,name:'SEO<br/>Marketing',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
+            id:4,name:'AI & Automation Services',description:'Use plugins to edit objects, create unions by hand, and manage blur, opacity, and fill settings. Collaborate with the community, prototype using the pen tool, and rotate or arrange elements with boolean operations. Share stars, devices, and editor content seamlessly.'
         }
     ]
     return (<>

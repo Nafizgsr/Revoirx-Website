@@ -119,6 +119,7 @@
   font-size: 96px;
   line-height: 115.2px;  
   letter-spacing: -2.88px;
+  margin-right: 40px !important;
   vertical-align: middle;
 }
 
@@ -129,6 +130,7 @@
   line-height: 76.8px;
   letter-spacing: -2.56px;
   white-space: pre-wrap;
+  max-width: 500px;
 }
 
 
@@ -144,12 +146,14 @@
 
 
 .service-list-button{
+  min-width: 116px;
   width: 116px;
   height: 116px;
   padding: 30px;
   border-radius: 360px;
   border: none;
   background-color: var(--primary-color-white);
+  margin-left: 30px !important;
 }
 
 .service-list-button svg{
@@ -174,15 +178,15 @@
     display: none !important;
   }
 
-  .service-list-item{
+  /* .service-list-item{
     display: flex;
     flex-direction: column;
     justify-content: space-between !important;
     align-items: flex-start;
     padding: 20px;
     width:100% !important;
-    gap: 4px;
-  }
+    gap: 30px;
+  } */
 
   .service-index {
     font-weight: 500;

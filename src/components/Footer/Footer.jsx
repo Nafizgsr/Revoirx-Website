@@ -92,6 +92,7 @@ const Footer = () =>{
                     </div>
                 </div>
             </div>
+            {/* new part */}
             <div className="last-footer-div">
                 <div className="last-footer-col">
                     <ul className="social-media-list">
