@@ -1,6 +1,6 @@
 .intro-main-container {
   width: 100%;
-  height: 100vh; /* ensures it takes full screen height */
+  height: 80vh;
   position: relative;
 }
 

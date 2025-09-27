@@ -4,7 +4,7 @@
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
-    gap: 120px !important;
+    gap: 60px !important;
 }
 .footer-img{
     width: 225.11488342285156px;
@@ -63,7 +63,7 @@
 }
 
 .subscribe-details-row{
-    margin-bottom: 60px !important;
+    margin-bottom: 10px !important;
 }
 
 .subscribe-details {

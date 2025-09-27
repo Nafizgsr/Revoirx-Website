@@ -6,10 +6,10 @@ const ContactUsAddress = () =>{
                 <div class="contact-us-address-div1">
                     <div className="contact-us-address-card" style={{ height: "66px" }}>
                         <ul className="contact-us-address-type">
-                            <li><a>Instagram</a></li>
-                            <li><a>Linkedin</a></li>
-                            <li><a>Youtube</a></li>
-                            <li><a>Discord</a></li>
+                            {/* <li><a>Instagram</a></li> */}
+                            <li><a href="https://www.linkedin.com/company/revoir-x/">Linkedin</a></li>
+                            {/* <li><a>Youtube</a></li>
+                            <li><a>Discord</a></li> */}
                             {/* <li><a>Instagram</a></li> */}
                         </ul>
                     </div>
@@ -22,7 +22,7 @@ const ContactUsAddress = () =>{
                 <div class="contact-us-address-div3">
                     <div className="contact-us-address-card address-card text-center" style={{ height: "auto%" }}>
                         <p className="contact-us-address-div-3-card-sub-heading extra-margin">General</p>
-                        <p className="contact-us-address-div-3-card-email">revoirux@gamil.com</p>
+                        <p className="contact-us-address-div-3-card-email">info@revoirx.com</p>
                         {/* <p className="contact-us-address-div-3-card-number">+1 414 207 9724</p> */}
                         <p className="contact-us-address-div-3-card-sub-heading address-extra-margin">Address</p>
                         <div className="contact-us-address-div-3-address-box">
