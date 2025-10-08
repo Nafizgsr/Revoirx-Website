@@ -128,6 +128,27 @@
     border-left: 1px solid #26283080;
 }
 
+.about-us-companyinfo-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-companyinfo-list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style-type: disc;
+    list-style-position: inside;
+    align-items: start !important;
+    margin: 0 !important;
+    padding: 10 !important;
+}
+
+.about-us-companyinfo-list ul li{
+    font-size: 20px !important;
+    padding-left: 0px !important;
+}
+
 
 
 @media (max-width: 428px){

@@ -24,13 +24,34 @@ const CompanyInfo = () =>{
         <div className="about-us-company-info-col">
                 <div className="about-us-company-info-container">
                     <p className="about-us-company-info-heading">
-                        Company
+                        About Us
                     </p>
                     <p className="about-us-company-info-description">
-                        Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.
+                        We are a team of creators, developers, and strategists dedicated to building digital solutions that work. From design to development, we focus on simplicity, functionality, and results that help your business move forward.
+                    </p>
+                    <div className="about-us-companyinfo-list">
+                        <ul>
+                            <li>Proven experience in web development, branding, and digital marketing.</li>
+                            <li> Long-term client satisfaction and sustainable business growth are our top priorities.</li>
+                            <li>Custom-tailored digital strategies designed to deliver measurable results.</li>
+                            <li>Continuous support and innovation to keep you ahead of the competition.</li>
+                        </ul>
+                    </div>
+                    <p className="about-us-company-info-heading">
+                        How We Help
                     </p>
                     <p className="about-us-company-info-description">
-                        Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.
+                        We make technology work for you.
+                    </p>
+                    <div className="about-us-companyinfo-list">
+                        <ul>
+                            <li>Modern websites, apps, and branding.</li>
+                            <li>Smarter marketing and data-driven growth.</li>
+                            <li>Reliable support and long-term value.</li>
+                        </ul>
+                    </div>
+                    <p className="about-us-company-info-description">
+                        Our goal is simple: help you grow with solutions that are clear, effective, and built for the future.
                     </p>
                 </div>
             </div>
@@ -84,7 +105,7 @@ const AboutUs = () => {
             heading="For the future of AI and beyond"
             description="People who think differently, who challenge norms, who give free rein to feelings, fantasies, ideas and experiences to inspire everyone"
             buttonText="Get Started"
-            subHeadName='Company'
+            subHeadName='About Us'
             IsHead={false}
             IsButton = {true}
             onClick={() => console.log('Button clicked')}

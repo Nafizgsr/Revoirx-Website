@@ -11,6 +11,7 @@ import News from '../News/News';
 import Subintro from '../Sub-Intro/Subintro';
 import Testimonial from '../Testimonial/Testimonial';
 import Footer from '../Footer/Footer';
+
 const Home = () => {
     return (<>
         <Navbar/>
